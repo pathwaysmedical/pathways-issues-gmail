@@ -10,7 +10,7 @@ var addLinks = function() {
         function(elem) {
           return elem.attributes.email.value;
         }
-      );
+      ).concat(message.querySelector(".gD").attributes.email.value);
 
       message.
         querySelector("td.ady").
