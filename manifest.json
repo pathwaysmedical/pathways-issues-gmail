@@ -1,0 +1,12 @@
+{
+  "name": "Pathways Issues for Gmail",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Adds Pathways Issues from Gmail",
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/mail/*"],
+      "js": ["app.js"]
+    }
+  ]
+}
